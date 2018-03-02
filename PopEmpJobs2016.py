@@ -4,37 +4,53 @@ from CensusPopEstimateByAge import *
 from employed_noninstu_pop_16_up import *
 
 
-def unaltered_bls_data(year):
+def unaltered_bls_data(year, us=False):
     area_av_job = get_inst(year)  # region, pop, CLF, emp, unemployed, institutionalized
     able_to_work_but_no_job = []
-    us_tots = 0
+    clf_regions = 0
+    unemp_regions = 0
+    avjob_regions = 0
+    us_tots = []
     for info in area_av_job:
         for intel in tots_age_reg(year):
             if info[0] == intel[0]:
+                clf_regions += info[2]
+                unemp_regions += info[4]
+                avjob_regions += intel[1]
                 can_work_minus_available_jobs = info[4] - intel[1]
-                us_tots += can_work_minus_available_jobs
                 able_to_work_but_no_job.append([info[0], year, can_work_minus_available_jobs])
-    able_to_work_but_no_job.append(['United States', year, us_tots])
-    return able_to_work_but_no_job
+    if us:
+        us_tots.extend(['United States', year, clf_regions, unemp_regions, avjob_regions])
+        return us_tots
+    else:
+        return able_to_work_but_no_job
 
-
-def bls_with_census(year):
-    ages_16_67 = get_work_census_pop(year)
-    area_av_job = get_inst(year)
-    us_tots = 0
+# CLF Unemployed JOLTS
+def bls_with_census(year, us=False):
+    ages_16_67 = get_work_census_pop(year)  # total population 16-67 in a region
+    area_av_job = get_inst(year)  # region, pop, CLF, emp, unemployed, institutionalized
+    clf_regions = 0
+    unemp_regions = 0
+    avjob_regions = 0
+    us_tots= []
     census_data = []
     for info in area_av_job:
         for stats in ages_16_67:
             if info[0] == stats[0]:
-                census_pop_minus_insti = stats[1] - info[5]
-                can_work_minus_employed = census_pop_minus_insti - info[3]
+                census_pop_minus_institutionalized = stats[1] - info[5]
+                can_work_minus_employed = census_pop_minus_institutionalized - info[3]
                 for intel in tots_age_reg(year):
                     if intel[0] == info[0]:
+                        clf_regions += census_pop_minus_institutionalized
+                        unemp_regions += can_work_minus_employed
+                        avjob_regions += intel[1]
                         unemp_minus_jobs_available = can_work_minus_employed - intel[1]
-                        us_tots += unemp_minus_jobs_available
                         census_data.append([info[0], year, unemp_minus_jobs_available])
-    census_data.append(['United States', year, us_tots])
-    return census_data
+    if us:
+        us_tots.extend(['United States', year, clf_regions, unemp_regions, avjob_regions])
+        return us_tots
+    else:
+        return census_data
 
 
 def combine_year_sets(fun1, year1, year2):
