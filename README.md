@@ -8,7 +8,7 @@ This 2016 estimate is less than in 2015 when 2,981,834 unemployed people **did n
 
 ![BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/BLS.PNG)
 
-BLS stats<sup id="a2">[2](#f2)</sup> only provides an age restriction of 16 and older. 
+BLS stats<sup id="a2">[2](#f2)</sup> note an age restriction of 16 and older. 
 To identify if possible retirees are included in the BLS stats, the Census population estimates by age and state was analyzed.
 
 Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates reveals a much larger portion of the population without a job available to them. 
