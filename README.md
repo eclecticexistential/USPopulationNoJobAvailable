@@ -49,7 +49,7 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 * JO =  dataelement_code (Job Openings)
 * L = ratelevel_code (L is level meaning data is in a four digit number representing thousands)
 
-### <b id="f2">BLS</b> stats Population, CLF, Emp, Unemp Inst [Data](https://www.bls.gov/news.release/archives/srgune_02282017.htm)
+### <b id="f2">BLS</b> stats Population, Civilian Labor Force, Employed, Unemployed, Institutionalized [Data](https://www.bls.gov/news.release/archives/srgune_02282017.htm)
 
 * Official national estimates obtained from Current Population Survey (CPS)
 * Sample survey of households conducted for Bureau of Labor Statistics (BLS) by U.S. Census Bureau
@@ -63,7 +63,7 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 1. Not working looking for work/available for work
 2. Currently laid off
 
-### <b id="f3">Civilian Non-Institutional</b>
+### <b id="f3">Civilian Non-Institutional Population = Civilian Labor Force</b>
 * Population 16 years of age and older
 * Not an inmate of the following [institutions](https://en.wikipedia.org/wiki/Civilian_noninstitutional_population): penal, mental facilities, home for the aged, or not on active duty.
-* Includes 10,827,000 disabled population unable to work between the [ages of 16-64](https://www.bls.gov/news.release/disabl.t01.htm).
+* Data accounts for the 10,827,000 disabled population unable to work between the [ages of 16-64](https://www.bls.gov/news.release/disabl.t01.htm).
