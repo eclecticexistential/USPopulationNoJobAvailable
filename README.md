@@ -3,12 +3,12 @@
 ##### I purposed this ^ question for my Python Data Visualization project. 
 ## What the data revealed is worth sharing.
 
-According to the Bureau Labor of Statistics and Job Opening and Labor Turnover in2016, of the 7,729,000 unemployed, 2,176,500[^1] **do not** have an open position available to them. This 2016 estimate is less than the 2015 estimate of 2,981,834 people without a job available to them.
+According to the Bureau Labor of Statistics and Job Opening and Labor Turnover in2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **do not** have an open position available to them. This 2016 estimate is less than the 2015 estimate of 2,981,834 people without a job available to them.
 
-BLS stats[^2] only provide an age restriction of 16 and older. 
+BLS stats<sup id="a2">[2](#f2)</sup> only provide an age restriction of 16 and older. 
 To identify the possible retirement age restriction, the Census population by age and state was analyzed.
 
-Removing the BLS Employed and Institutionalized[^3] population from the Census estimates revealed a much larger portion of the population without a job available to them. According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them  in 2016. 
+Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates revealed a much larger portion of the population without a job available to them. According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them  in 2016. 
 
 Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years.
 
@@ -25,7 +25,7 @@ Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats o
 ## Data Guide
 
 
-###[^1]:JOLTS [data](https://download.bls.gov/pub/time.series/jt/jt.data.2.JobOpenings)
+### <b id="f1">JOLTS</b> [data](https://download.bls.gov/pub/time.series/jt/jt.data.2.JobOpenings)
 
 Information collected from 16,000 randomly selected nonfarm establishments, *drawn from a universe of approximately 8 million establishments* compiled as part of the Quarterly Census of Employment and Wages, or ES-202, program.
 
@@ -37,7 +37,7 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 * JO =  dataelement_code (Job Openings)
 * L = ratelevel_code (L is level meaning data is in a four digit number representing thousands)
 
-###[^2]:BLS stats Population, CLF, Emp, Unemp Inst [Data](https://www.bls.gov/news.release/archives/srgune_02282017.htm)
+### <b id="f2">BLS</b> stats Population, CLF, Emp, Unemp Inst [Data](https://www.bls.gov/news.release/archives/srgune_02282017.htm)
 
 * Official national estimates obtained from Current Population Survey (CPS)
 * Sample survey of households conducted for Bureau of Labor Statistics (BLS) by U.S. Census Bureau
@@ -51,7 +51,7 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 1. Not working looking for work/available for work
 2. Currently laid off
 
-###[^3]: Civilian Non-Institutional
+### <b id="f3">Civilian Non-Institutional</b>
 * Population 16 years of age and older
 * Not an inmate of an institution (penal, mental facilities, home for the aged, or not on active duty.
-* Includes 10,827,000 disabled population unable to work between the [ages of 16-64](https://www.bls.gov/news.release/disabl.t01.htm). [^4]
+* Includes 10,827,000 disabled population unable to work between the [ages of 16-64](https://www.bls.gov/news.release/disabl.t01.htm).
