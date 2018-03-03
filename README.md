@@ -21,12 +21,17 @@ To-date, I am unable to discern whether or not the job shortage is directly rela
 
 *Manual steps to recreate results:*
 1. Download the [Census](https://www.census.gov/data/datasets/2017/demo/popest/state-detail.html) dataset [here](https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/state/asrh/sc-est2016-agesex-civ.csv) or look for the data named "Annual Estimates of the Civilian Population by Single Year of Age and Sex for the United States and States: April 1, 2010 to July 1, 2016".
-2. Filter Census data by state and ages 16-67.
+2. Filter Census data by years, state, and ages 16-67.
 3. Grab table one from the Bureau Labor of Statistics Data [website](https://www.bls.gov/news.release/archives/srgune_02282017.htm).
-4. Filter by regions: Northeast, West, South, Midwest
+4. Filter by years and regions: Northeast, West, South, Midwest
 5. Get the Job Opening and Labor Turnover stats [here](https://download.bls.gov/pub/time.series/jt/jt.data.2.JobOpenings).
-6. Filter by seasonally adjusted and all job categories, data comes in regions
+6. Filter by years, seasonally adjusted and all job categories, data comes in regions
 7. Download cphalpert's handy census-regions [algorithm](https://github.com/cphalpert/census-regions/blob/master/us%20census%20bureau%20regions%20and%20divisions.csv)
+8. Add Census stats by region
+9. Reduce BLS Unemployed by JOLTS Available Jobs for both years
+10. Get institutionalized population estimates by reducing BLS Pop estimates by CLF
+11. Take regional Census data and reduce by BLS institutionalized and employed population
+12. Remaining number is estimate of unemployed population, subtract JOLTS available jobs for estimates used in graphs.
 
 
 ## Data Guide
