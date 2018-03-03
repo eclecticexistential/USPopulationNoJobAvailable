@@ -3,20 +3,21 @@
 ##### I purposed this ^ question for my Python Data Visualization project. 
 ## What the data revealed is worth sharing.
 
-According to the Bureau Labor of Statistics and Job Opening and Labor Turnover in 2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **did not** have an open position available to them. 
-This 2016 estimate is less than in 2015 when 2,981,834 unemployed people **did not** have a job available to them.
+According to the Bureau Labor of Statistics and Job Opening and Labor Turnover estimates in 2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **did not** have an open position available to them. 
+This estimate is less than 2015, when 2,981,834 unemployed people apparently **did not** have a job available to them.
 
 ![BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/BLS.PNG)
 
 BLS stats<sup id="a2">[2](#f2)</sup> note an age restriction of 16 and older. 
-To identify if possible retirees are included in the BLS stats, the Census population estimates by age and state was analyzed.
+To identify if retirees are included in the BLS stats, the Census population estimates by age and state was analyzed.
 
 Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates reveals a much larger portion of the population without a job available to them. 
-According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them in 2016. 
+According to Census, BLS, and JOLTS data estimates, 27,638,691 people **did not** have an open position available to them in 2016. 
 
 ![Census BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/Census.PNG)
 
-Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years. To-date, I am unable to discern whether or not the job shortage is directly related to automation.
+Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years. 
+To-date, I am unable to discern whether or not the job shortage is directly related to automation.
 
 *Manual steps to recreate results:*
 1. Download the [Census](https://www.census.gov/data/datasets/2017/demo/popest/state-detail.html) dataset [here](https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/state/asrh/sc-est2016-agesex-civ.csv) or look for the data named "Annual Estimates of the Civilian Population by Single Year of Age and Sex for the United States and States: April 1, 2010 to July 1, 2016".
