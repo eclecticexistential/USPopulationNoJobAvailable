@@ -10,7 +10,7 @@ To identify the possible retirement age restriction, the Census population by ag
 
 Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates revealed a much larger portion of the population without a job available to them. According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them  in 2016. 
 
-Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years.
+Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years. To-date, I am unable to discern whether or not the job shortage is directly related to automation.
 
 *Manual steps to recreate results:*
 1. Download the [Census](https://www.census.gov/data/datasets/2017/demo/popest/state-detail.html) dataset [here](https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/state/asrh/sc-est2016-agesex-civ.csv) or look for the data named "Annual Estimates of the Civilian Population by Single Year of Age and Sex for the United States and States: April 1, 2010 to July 1, 2016".
