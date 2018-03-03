@@ -107,10 +107,8 @@ def make_db():
     insert_into_db()
 
 
-make_db()
-
-
 def retrieve_stats(bls=False, census=False):
+    make_db()
     the_cursor = db_conn.cursor()
     try:
         if bls:

@@ -59,14 +59,14 @@ def insert_into_db(data, bls=False, census=False):
                                 + "', '" + str(stats[4]) + "')")
 
 
-def make_new_db():
+def make_bls_db():
     initialize_bls()
-    initialize_census()
     insert_into_db(combine(unaltered_bls_data, '2015', '2016'), bls=True)
+
+
+def make_census_db():
+    initialize_census()
     insert_into_db(combine(bls_with_census, '2015', '2016'), census=True)
-
-
-make_new_db()
 
 
 def get_us_stats(bls=False, census=False):
@@ -74,12 +74,12 @@ def get_us_stats(bls=False, census=False):
     cens_cursor = censdb_conn.cursor()
     try:
         if bls:
-            result = bls_cursor.execute("SELECT Area, Year, CLFTots, UnemployedTots, "
-                                        "AvailableJobs FROM USBLSStats")
+            make_bls_db()
+            result = bls_cursor.execute("SELECT UnemployedTots, AvailableJobs FROM USBLSStats")
             return result
         if census:
-            result = cens_cursor.execute("SELECT Area, Year, CLFTots, UnemployedTots, "
-                                         "AvailableJobs FROM USCensusStats")
+            make_census_db()
+            result = cens_cursor.execute("SELECT UnemployedTots, AvailableJobs FROM USCensusStats")
             return result
 
     except sqlite3.OperationalError:
