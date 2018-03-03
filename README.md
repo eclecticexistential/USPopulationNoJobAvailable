@@ -3,12 +3,18 @@
 ##### I purposed this ^ question for my Python Data Visualization project. 
 ## What the data revealed is worth sharing.
 
-According to the Bureau Labor of Statistics and Job Opening and Labor Turnover in2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **do not** have an open position available to them. This 2016 estimate is less than the 2015 estimate of 2,981,834 people without a job available to them.
+According to the Bureau Labor of Statistics and Job Opening and Labor Turnover in 2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **did not** have an open position available to them. 
+This 2016 estimate is less than the previous annual estimate. In 2015 2,981,834 unemployed people **did not** have a job available to them.
+
+![BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/BLS.PNG)
 
 BLS stats<sup id="a2">[2](#f2)</sup> only provide an age restriction of 16 and older. 
 To identify the possible retirement age restriction, the Census population by age and state was analyzed.
 
-Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates revealed a much larger portion of the population without a job available to them. According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them  in 2016. 
+Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates reveals a much larger portion of the population without a job available to them. 
+According to Census, BLS, and JOLTS data, 27,638,691 people **did not** have an open position available to them in 2016. 
+
+![Census BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/Census.PNG)
 
 Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years. To-date, I am unable to discern whether or not the job shortage is directly related to automation.
 
