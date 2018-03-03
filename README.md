@@ -65,5 +65,5 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 
 ### <b id="f3">Civilian Non-Institutional</b>
 * Population 16 years of age and older
-* Not an inmate of an institution (penal, mental facilities, home for the aged, or not on active duty.
+* Not an inmate of the following [institutions](https://en.wikipedia.org/wiki/Civilian_noninstitutional_population): penal, mental facilities, home for the aged, or not on active duty.
 * Includes 10,827,000 disabled population unable to work between the [ages of 16-64](https://www.bls.gov/news.release/disabl.t01.htm).
