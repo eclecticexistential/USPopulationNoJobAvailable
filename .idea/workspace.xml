@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67db6454-a118-4133-af6b-24ce46953222" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/USBLSStats.db-journal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/USCensusStats.db-journal" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USBLSStats.db" afterPath="$PROJECT_DIR$/USBLSStats.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USBLSStats.db-journal" afterPath="$PROJECT_DIR$/USBLSStats.db-journal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USCensusStats.db" afterPath="$PROJECT_DIR$/USCensusStats.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USCensusStats.db-journal" afterPath="$PROJECT_DIR$/USCensusStats.db-journal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/complete.db" afterPath="$PROJECT_DIR$/complete.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/complete.db-journal" afterPath="$PROJECT_DIR$/complete.db-journal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/USCLFUnemployedJOLTS-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/USCLFUnemployedJOLTS-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/USCensusCLFUnempJolts-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/USCensusCLFUnempJolts-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PopEmpJobs2016.py" afterPath="$PROJECT_DIR$/PopEmpJobs2016.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USBLS.html" afterPath="$PROJECT_DIR$/USBLS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USCLFUnemployedJOLTS.ipynb" afterPath="$PROJECT_DIR$/USCLFUnemployedJOLTS.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/USCensusCLFUnempJolts.ipynb" afterPath="$PROJECT_DIR$/USCensusCLFUnempJolts.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UStots.py" afterPath="$PROJECT_DIR$/UStots.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_classes.py" afterPath="$PROJECT_DIR$/data_classes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UStots.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UStots.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UStots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="402">
+              <caret line="77" column="95" lean-forward="false" selection-start-line="77" selection-start-column="95" selection-end-line="77" selection-end-column="95" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -46,18 +36,18 @@
       <file leaf-file-name="PopEmpJobs2016.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PopEmpJobs2016.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="1751">
               <caret line="106" column="20" lean-forward="false" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="us_tots_classes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="us_tots_classes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/us_tots_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -140,10 +130,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="93" />
-    <option name="width" value="982" />
-    <option name="height" value="571" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -180,7 +170,7 @@
     <property name="SearchEverywhereHistoryKey" value="round&#9;null&#9;null&#10;excel&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.data_classes">
+  <component name="RunManager" selected="Python.us_tots_classes">
     <configuration default="false" name="PopEmpJobs2016" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,23 +205,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="CensusPopEstimateByAge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CensusPopEstimateByAge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="UStots" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,6 +235,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="us_tots_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/us_tots_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -406,17 +396,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.PopEmpJobs2016" />
       <item index="1" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
-      <item index="3" class="java.lang.String" itemvalue="Python.UStots" />
-      <item index="4" class="java.lang.String" itemvalue="Python.data_classes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.UStots" />
+      <item index="3" class="java.lang.String" itemvalue="Python.data_classes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.us_tots_classes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_classes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.UStots" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PopEmpJobs2016" />
-        <item index="3" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
+        <item index="0" class="java.lang.String" itemvalue="Python.us_tots_classes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data_classes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.UStots" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PopEmpJobs2016" />
+        <item index="4" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
       </list>
     </recent_temporary>
   </component>
@@ -437,26 +427,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="93" width="982" height="571" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12518302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3677991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3677991" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -587,33 +577,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PopEmpJobs2016.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="1751">
           <caret line="106" column="20" lean-forward="false" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us_tots_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UStots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="77" column="95" lean-forward="false" selection-start-line="77" selection-start-column="95" selection-end-line="77" selection-end-column="95" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/us_tots_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
