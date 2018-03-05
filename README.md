@@ -16,7 +16,8 @@ According to Census, BLS, and JOLTS data estimates, 27,638,691 people **did not*
 
 ![Census BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/Census.PNG)
 
-Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years. 
+Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years.
+Estimates for whether or not stay-at-home parents are considered employed or unemployed vary by [state](https://www.huffingtonpost.com/2015/05/13/stay-at-home-fathers_n_7261020.html).
 To-date, I am unable to discern whether or not the job shortage is directly related to automation.
 
 *Manual steps to recreate results:*
