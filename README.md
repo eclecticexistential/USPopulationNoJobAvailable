@@ -56,7 +56,7 @@ This code JTS000000NEJOL is used in the JOLTS dataset to seperate stats by regio
 * LAUS measures employed and unemployed based on place-of-residence basis
 #### Employed regards any of the following: 
 1. Did any work for pay/profit
-2. Worked 15+ hours w/o pay
+2. Worked 15+ hours w/o pay in a family business or farm
 3. Not working currently on temporary or absent condition, regardless of whether or not paid
 
 #### Unemployed regards any of the following:
