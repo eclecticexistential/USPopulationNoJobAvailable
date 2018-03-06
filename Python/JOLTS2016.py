@@ -3,7 +3,7 @@ import csv
 
 def retrieve_info(year):
     new_info = []
-    with open('Original_Datasets/JOTLS 2000-2017 Open Jobs - Sheet1.csv', 'r') as csvfile:
+    with open('../Original_Datasets/JOTLS 2000-2017 Open Jobs - Sheet1.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:
@@ -46,4 +46,3 @@ def get_area(area, year):  # use built-in coding to find seasonally adjusted sta
     for a in get_set:
         if a[0] == search:
             return a[2]
-

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Census, JOLTS, and BLS in 50 States 2015 - 2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="5ef7dd9e-dfa3-4c33-bebe-c5a1f39d7157"></div>
+        </div>
+        
+        <script type="application/json" id="71a0d719-3904-42cb-8445-eb03af4a7b36">
+          {"3729560c-f9d5-479d-abcf-7099d37e5aa7":{"roots":{"references":[{"attributes":{"callback":null,"column_names":["category","data","color"],"data":{"category":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"],"color":["#400000","#FF0000","#004000","#00FF00"],"data":[8293000,5311166,7729000,5552500]}},"id":"35dd7e77-add9-43ff-ac9b-7c8a5b6f2105","type":"ColumnDataSource"},{"attributes":{},"id":"0f2cd505-9209-4ff4-abc1-ae8a1779e7ce","type":"LinearScale"},{"attributes":{},"id":"fd9dfc1f-36b9-42bb-8b1f-1303983e9c51","type":"CategoricalScale"},{"attributes":{"callback":null,"end":8500000},"id":"089a5220-3086-4bd8-b7eb-43310de24c41","type":"Range1d"},{"attributes":{"formatter":{"id":"a9eb34a5-12ce-4541-9ce8-87ccac34be1d","type":"CategoricalTickFormatter"},"plot":{"id":"b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","subtype":"Figure","type":"Plot"},"ticker":{"id":"7bccee58-2398-41a4-a31b-fccecc0b9386","type":"CategoricalTicker"}},"id":"9dd0f95a-a136-4211-b4d0-69278f7a1ee2","type":"CategoricalAxis"},{"attributes":{"data_source":{"id":"35dd7e77-add9-43ff-ac9b-7c8a5b6f2105","type":"ColumnDataSource"},"glyph":{"id":"4f200f75-0e2c-4eab-a865-f4d067c94989","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"c1217b76-ec4e-487f-b650-d1f31253d150","type":"VBar"},"selection_glyph":null,"view":{"id":"b7342ad6-771e-4055-aec5-db2b87e50733","type":"CDSView"}},"id":"1030da60-a364-4e37-9713-ac692536830f","type":"GlyphRenderer"},{"attributes":{"callback":null,"factors":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"]},"id":"674a71ca-96e9-4612-96f0-b8498630d2b7","type":"FactorRange"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","subtype":"Figure","type":"Plot"},"ticker":{"id":"7bccee58-2398-41a4-a31b-fccecc0b9386","type":"CategoricalTicker"}},"id":"f2a22c12-9df6-447b-a76c-80250cf59e1b","type":"Grid"},{"attributes":{"formatter":{"id":"ae710a52-e349-4286-bc5e-7a42fc1fc0e8","type":"NumeralTickFormatter"},"plot":{"id":"b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","subtype":"Figure","type":"Plot"},"ticker":{"id":"ef2b9269-44ba-474f-bccc-facfc1124a2e","type":"BasicTicker"}},"id":"82e8855f-0ca3-43a8-8e55-7ba75c2f524c","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["Category","@category"],["Stats","@data"]]},"id":"4f61dffb-5c19-4186-aa13-8d96a07bd492","type":"HoverTool"},{"attributes":{},"id":"36742d70-e81e-4889-a062-96924ee12341","type":"ResetTool"},{"attributes":{},"id":"7bccee58-2398-41a4-a31b-fccecc0b9386","type":"CategoricalTicker"},{"attributes":{"dimension":1,"plot":{"id":"b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","subtype":"Figure","type":"Plot"},"ticker":{"id":"ef2b9269-44ba-474f-bccc-facfc1124a2e","type":"BasicTicker"}},"id":"2742e67e-1556-4401-9f92-bd021a3d602e","type":"Grid"},{"attributes":{},"id":"ef2b9269-44ba-474f-bccc-facfc1124a2e","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"71c783fe-43c1-4dc2-85f8-86065124ad38","type":"ResetTool"},{"id":"c3ee4efc-4168-495e-bc0c-8a9d92b3ce39","type":"HoverTool"},{"id":"bba5aaf6-e4e7-4342-aea7-5bdf0dc554ec","type":"SaveTool"}]},"id":"fefa08c4-0e28-4340-a5a7-8292bc85329b","type":"Toolbar"},{"attributes":{},"id":"6cb74669-b4b7-48eb-a0e6-4180027d16ea","type":"CategoricalScale"},{"attributes":{"callback":null,"end":36000000},"id":"77d3a647-d0e1-4cbe-b4ee-31003b3f016e","type":"Range1d"},{"attributes":{},"id":"4f2e2130-0285-4708-ba5a-1506eee11e4a","type":"SaveTool"},{"attributes":{"plot":null,"text":"Census, JOLTS, and BLS in 50 States 2015 - 2016"},"id":"a64a4571-d050-4747-b561-fb74baf5d2c7","type":"Title"},{"attributes":{"callback":null,"column_names":["category","data","color"],"data":{"category":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"],"color":["#003300","#00FF00","#000033","#0000FF"],"data":[35253496,5311166,33191191,5552500]}},"id":"34709fa2-1024-4964-bb27-1369954491e1","type":"ColumnDataSource"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"591b3049-a21a-46da-806c-96d4dc289c21","type":"VBar"},{"attributes":{},"id":"8e3b98b3-8a1c-48b8-900f-56d967850896","type":"LinearScale"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"4f200f75-0e2c-4eab-a865-f4d067c94989","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"36742d70-e81e-4889-a062-96924ee12341","type":"ResetTool"},{"id":"4f61dffb-5c19-4186-aa13-8d96a07bd492","type":"HoverTool"},{"id":"4f2e2130-0285-4708-ba5a-1506eee11e4a","type":"SaveTool"}]},"id":"fc1ec20d-82ae-4976-adb8-5721d201fcad","type":"Toolbar"},{"attributes":{"below":[{"id":"9dd0f95a-a136-4211-b4d0-69278f7a1ee2","type":"CategoricalAxis"}],"left":[{"id":"82e8855f-0ca3-43a8-8e55-7ba75c2f524c","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"9dd0f95a-a136-4211-b4d0-69278f7a1ee2","type":"CategoricalAxis"},{"id":"f2a22c12-9df6-447b-a76c-80250cf59e1b","type":"Grid"},{"id":"82e8855f-0ca3-43a8-8e55-7ba75c2f524c","type":"LinearAxis"},{"id":"2742e67e-1556-4401-9f92-bd021a3d602e","type":"Grid"},{"id":"1030da60-a364-4e37-9713-ac692536830f","type":"GlyphRenderer"}],"title":{"id":"1e2ace7c-6ce4-44cb-82f3-1488b1a200c3","type":"Title"},"toolbar":{"id":"fc1ec20d-82ae-4976-adb8-5721d201fcad","type":"Toolbar"},"x_range":{"id":"674a71ca-96e9-4612-96f0-b8498630d2b7","type":"FactorRange"},"x_scale":{"id":"fd9dfc1f-36b9-42bb-8b1f-1303983e9c51","type":"CategoricalScale"},"y_range":{"id":"089a5220-3086-4bd8-b7eb-43310de24c41","type":"Range1d"},"y_scale":{"id":"0f2cd505-9209-4ff4-abc1-ae8a1779e7ce","type":"LinearScale"}},"id":"b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","subtype":"Figure","type":"Plot"},{"attributes":{"below":[{"id":"3c1ac9c5-eb7a-4d01-80e8-62c6d171d670","type":"CategoricalAxis"}],"left":[{"id":"5964c249-3901-4ef3-8833-60489e135563","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"3c1ac9c5-eb7a-4d01-80e8-62c6d171d670","type":"CategoricalAxis"},{"id":"eab16829-f56a-472a-aef9-08794f885f9f","type":"Grid"},{"id":"5964c249-3901-4ef3-8833-60489e135563","type":"LinearAxis"},{"id":"d25db2a5-6501-45bd-8555-625c389e65f0","type":"Grid"},{"id":"6a08c468-f1a5-4b6c-b4d6-af28fbd40dc4","type":"GlyphRenderer"}],"title":{"id":"a64a4571-d050-4747-b561-fb74baf5d2c7","type":"Title"},"toolbar":{"id":"fefa08c4-0e28-4340-a5a7-8292bc85329b","type":"Toolbar"},"x_range":{"id":"5323d35a-2ba2-445b-9da7-f27c1212381b","type":"FactorRange"},"x_scale":{"id":"6cb74669-b4b7-48eb-a0e6-4180027d16ea","type":"CategoricalScale"},"y_range":{"id":"77d3a647-d0e1-4cbe-b4ee-31003b3f016e","type":"Range1d"},"y_scale":{"id":"8e3b98b3-8a1c-48b8-900f-56d967850896","type":"LinearScale"}},"id":"2d009a39-466e-468c-873f-c4af47ddafa4","subtype":"Figure","type":"Plot"},{"attributes":{"format":"100,000"},"id":"ae710a52-e349-4286-bc5e-7a42fc1fc0e8","type":"NumeralTickFormatter"},{"attributes":{"callback":null,"factors":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"]},"id":"5323d35a-2ba2-445b-9da7-f27c1212381b","type":"FactorRange"},{"attributes":{"plot":null,"text":"Bureau Labor Statistics and JOLTS in 50 States 2015 - 2016"},"id":"1e2ace7c-6ce4-44cb-82f3-1488b1a200c3","type":"Title"},{"attributes":{"formatter":{"id":"77028b05-5079-4f01-9920-3e7b3a796206","type":"CategoricalTickFormatter"},"plot":{"id":"2d009a39-466e-468c-873f-c4af47ddafa4","subtype":"Figure","type":"Plot"},"ticker":{"id":"af79043c-320e-466f-8e75-3b44b09dd034","type":"CategoricalTicker"}},"id":"3c1ac9c5-eb7a-4d01-80e8-62c6d171d670","type":"CategoricalAxis"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"2d009a39-466e-468c-873f-c4af47ddafa4","subtype":"Figure","type":"Plot"},"ticker":{"id":"af79043c-320e-466f-8e75-3b44b09dd034","type":"CategoricalTicker"}},"id":"eab16829-f56a-472a-aef9-08794f885f9f","type":"Grid"},{"attributes":{},"id":"af79043c-320e-466f-8e75-3b44b09dd034","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"c2058e46-a461-4707-b7a2-6cd7bc3c321e","type":"NumeralTickFormatter"},"plot":{"id":"2d009a39-466e-468c-873f-c4af47ddafa4","subtype":"Figure","type":"Plot"},"ticker":{"id":"191d3c33-91e7-4f10-b49f-b199214e68f8","type":"BasicTicker"}},"id":"5964c249-3901-4ef3-8833-60489e135563","type":"LinearAxis"},{"attributes":{"source":{"id":"34709fa2-1024-4964-bb27-1369954491e1","type":"ColumnDataSource"}},"id":"053afed6-703e-4e5f-8f95-54d3d3638f1c","type":"CDSView"},{"attributes":{},"id":"71c783fe-43c1-4dc2-85f8-86065124ad38","type":"ResetTool"},{"attributes":{},"id":"77028b05-5079-4f01-9920-3e7b3a796206","type":"CategoricalTickFormatter"},{"attributes":{},"id":"bba5aaf6-e4e7-4342-aea7-5bdf0dc554ec","type":"SaveTool"},{"attributes":{},"id":"191d3c33-91e7-4f10-b49f-b199214e68f8","type":"BasicTicker"},{"attributes":{"format":"100,000"},"id":"c2058e46-a461-4707-b7a2-6cd7bc3c321e","type":"NumeralTickFormatter"},{"attributes":{"dimension":1,"plot":{"id":"2d009a39-466e-468c-873f-c4af47ddafa4","subtype":"Figure","type":"Plot"},"ticker":{"id":"191d3c33-91e7-4f10-b49f-b199214e68f8","type":"BasicTicker"}},"id":"d25db2a5-6501-45bd-8555-625c389e65f0","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Category","@category"],["Stats","@data"]]},"id":"c3ee4efc-4168-495e-bc0c-8a9d92b3ce39","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"c1217b76-ec4e-487f-b650-d1f31253d150","type":"VBar"},{"attributes":{"data_source":{"id":"34709fa2-1024-4964-bb27-1369954491e1","type":"ColumnDataSource"},"glyph":{"id":"591b3049-a21a-46da-806c-96d4dc289c21","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"a87e17b3-8057-44a8-b6a5-bba7f564c6af","type":"VBar"},"selection_glyph":null,"view":{"id":"053afed6-703e-4e5f-8f95-54d3d3638f1c","type":"CDSView"}},"id":"6a08c468-f1a5-4b6c-b4d6-af28fbd40dc4","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"a87e17b3-8057-44a8-b6a5-bba7f564c6af","type":"VBar"},{"attributes":{},"id":"a9eb34a5-12ce-4541-9ce8-87ccac34be1d","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"35dd7e77-add9-43ff-ac9b-7c8a5b6f2105","type":"ColumnDataSource"}},"id":"b7342ad6-771e-4055-aec5-db2b87e50733","type":"CDSView"}],"root_ids":["b12d69ff-ebff-4d15-9ec5-53eb9a06a9de","2d009a39-466e-468c-873f-c4af47ddafa4"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('71a0d719-3904-42cb-8445-eb03af4a7b36').textContent;
+                  var render_items = [{"docid":"3729560c-f9d5-479d-abcf-7099d37e5aa7","elementid":"5ef7dd9e-dfa3-4c33-bebe-c5a1f39d7157","modelid":"2d009a39-466e-468c-873f-c4af47ddafa4"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

@@ -3,7 +3,7 @@ from areas_by_region import *
 
 
 def get_area_age(area, year, age=16, retire=True):  # gets population between 16-67
-    with open('Original_Datasets/sc-est2016-agesex-civ.csv', 'r') as csvfile:
+    with open('../Original_Datasets/sc-est2016-agesex-civ.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         under_16 = 0
         for row in reader:

@@ -2,7 +2,7 @@ import csv
 
 
 def sep_state_region(region):
-    with open('Original_Datasets/us census bureau regions and divisions.csv', 'r') as csvfile:
+    with open('../Original_Datasets/us census bureau regions and divisions.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         regions_by_state = []
         for row in reader:
@@ -12,7 +12,7 @@ def sep_state_region(region):
 
 
 def get_states_abb_into_region(region):  # added specifically for bokeh state sample data
-    with open('Original_Datasets/us census bureau regions and divisions.csv', 'r') as csvfile:
+    with open('../Original_Datasets/us census bureau regions and divisions.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         regions_by_state_abb = []
         for row in reader:

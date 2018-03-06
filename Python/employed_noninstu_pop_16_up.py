@@ -3,18 +3,16 @@ import re
 
 
 def get_data():
-    with open('Original_Datasets/'
+    with open('../Original_Datasets/'
               'https___www.bls.gov_news.release_archives_srgune_02282017.htm - Sheet1.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
-        counter = 7
+        counter = 8
         while counter > 0:
             next(reader)
             counter -= 1
         for row in reader:
             yield row
 
-
-# print(list(get_data()))  ...do I need united states row?
 
 def shape_info():  # stats are in strings
     string = get_data()
