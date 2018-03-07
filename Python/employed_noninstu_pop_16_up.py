@@ -2,20 +2,31 @@ import csv
 import re
 
 
-def get_data():
+def get_bls_data_2015():
     with open('../Original_Datasets/'
-              'https___www.bls.gov_news.release_archives_srgune_02282017.htm - Sheet1.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile)
+              'https___www.bls.gov_news.release_archives_srgune_02282017.htm - Sheet1.csv', 'r') as csvfile2015:
+        reader2015 = csv.reader(csvfile2015)
         counter = 8
         while counter > 0:
-            next(reader)
+            next(reader2015)
             counter -= 1
-        for row in reader:
+        for row in reader2015:
             yield row
 
 
-def shape_info():  # stats are in strings
-    string = get_data()
+def get_bls_data_2016():
+    with open('../Original_Datasets/'
+              'https___www.bls.gov_news.release_srgune.t01.htm - Sheet1.csv', 'r') as csvfile2016:
+        reader2016 = csv.reader(csvfile2016)
+        counter = 5
+        while counter > 0:
+            next(reader2016)
+            counter -= 1
+        for row in reader2016:
+            yield row
+
+
+def shape_bls_info(string):  # stats are in strings
     conformed_data = []
     for line in string:
         for word in line:
@@ -46,10 +57,10 @@ def shape_info():  # stats are in strings
     return conformed_data
 
 
-def make_readable():
+def make_bls_info_readable(dataset):
     make_dict = []  # may make into a dict()
     array = []
-    info = shape_info()
+    info = shape_bls_info(dataset)
     for item in info:
         if type(item) == str:
             if len(array) != 0:
@@ -65,18 +76,18 @@ def make_readable():
         return make_dict
 
 
-def consolidate(year):
-    closer = make_readable()  # area, 2015POP, 2016POP, 2015CLF, 2016CLF, 2015Emp, 2016Unemp
+def consolidate_data_by_year_and_region(year, dataset):
+    closer = make_bls_info_readable(dataset)  # area, 2015POP, 2016POP, 2015CLF, 2016CLF, 2015Emp, 2016Unemp
     for group in closer:
         if group[0] in ['Northeast', 'Midwest', 'South', 'West']:
-            if year == '2016':
-                yield group[0], group[2], group[4], group[6], group[8]
-            elif year == '2015':
+            if year == '2015' or year == '2016':
                 yield group[0], group[1], group[3], group[5], group[7]
+            elif year == '2017':
+                yield group[0], group[2], group[4], group[6], group[8]
 
 
-def get_inst(year):  # calculates number of institutionalized citizens to use later with census data
-    data = list(consolidate(year))
+def identify_inst_pop(year, dataset):  # calculates number of institutionalized citizens to use later with census data
+    data = list(consolidate_data_by_year_and_region(year, dataset))
     reset = []
     send = []
     for item in data:
@@ -87,3 +98,10 @@ def get_inst(year):  # calculates number of institutionalized citizens to use la
         reset.append(send)
         send = []
     return reset
+
+
+def get_stats_by_year(year):
+    if year == '2015':
+        return identify_inst_pop('2015', get_bls_data_2015())
+    elif year == '2016':
+        return identify_inst_pop('2016', get_bls_data_2016())

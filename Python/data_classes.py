@@ -21,5 +21,3 @@ class CensusData:
             yield data
 
 census = list(CensusData())
-
-

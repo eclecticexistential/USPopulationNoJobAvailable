@@ -1,8 +1,9 @@
-from JOLTS2016 import *
-from areas_by_region import *
+import csv
+from JOLTS2016 import reduce_jolts_data_by_area
+from areas_by_region import sep_state_region
 
 
-def get_area_age(area, year, age=16, retire=True):  # gets population between 16-67
+def get_census_pop_by_area_age(area, year, age=16, retire=True):  # gets population between 16-67
     with open('../Original_Datasets/sc-est2016-agesex-civ.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         under_16 = 0
@@ -40,15 +41,15 @@ def get_area_age(area, year, age=16, retire=True):  # gets population between 16
                                 yield [row[4], int(row[6]), above_15]
 
 
-def get_region(region, year, age, retire):
+def put_census_pop_into_region(region, year, age, retire):
     states = sep_state_region(region)  # puts states into regions
     for state in states:
-        yield get_area_age(state, year, age, retire)  # --> [state, age, pop]
+        yield get_census_pop_by_area_age(state, year, age, retire)  # --> [state, age, pop]
 
 
-def get_age_regions(area, year, age=16, retire=True):
+def add_census_pop_by_region(area, year, age=16, retire=True):
     run_tot_reg = 0
-    areas_age = get_region(area, year, age, retire)  # finds out how many people between 16-67 in a region
+    areas_age = put_census_pop_into_region(area, year, age, retire)  # finds out how many people between 16-67 in a region
     a_age_tots = []
     for pop in areas_age:
         for stat in pop:
@@ -57,21 +58,21 @@ def get_age_regions(area, year, age=16, retire=True):
     return a_age_tots
 
 
-def get_work_census_pop(year, retire=True):  # gets population for each region adds to get US Pop tots
+def get_total_census_pop(year, retire=True):  # gets population for each region adds to get US Pop tots
     areas = ['South', 'Northeast', 'Midwest', 'West']
     by_area = []
     tots = 0
     for area in areas:
-        data = get_age_regions(area, year, retire)
+        data = add_census_pop_by_region(area, year, retire)
         by_area.append(data)
         tots += data[1]
     by_area.append(['United States', tots])
     return by_area
 
 
-def tots_age_reg(year):  # gets stats from JOLTS file
+def jolts_jobs_by_region(year):  # gets stats from JOLTS file
     areas = ['South', 'Northeast', 'Midwest', 'West']
     by_region = []
     for area in areas:
-            by_region.append([area, get_area(area, year)])
+            by_region.append([area, reduce_jolts_data_by_area(area, year)])
     return by_region

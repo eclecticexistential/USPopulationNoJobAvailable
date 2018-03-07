@@ -3,7 +3,7 @@ import sqlite3
 from PopEmpJobs2016 import unaltered_bls_data, bls_with_census
 
 
-def combine(fun, year1, year2):
+def combine_years(fun, year1, year2):
     set_one = fun(year1, us=True)
     set_two = fun(year2, us=True)
     return [set_one, set_two]
@@ -61,12 +61,12 @@ def insert_into_db(data, bls=False, census=False):
 
 def make_bls_db():
     initialize_bls()
-    insert_into_db(combine(unaltered_bls_data, '2015', '2016'), bls=True)
+    insert_into_db(combine_years(unaltered_bls_data, '2015', '2016'), bls=True)
 
 
 def make_census_db():
     initialize_census()
-    insert_into_db(combine(bls_with_census, '2015', '2016'), census=True)
+    insert_into_db(combine_years(bls_with_census, '2015', '2016'), census=True)
 
 
 def get_us_stats(bls=False, census=False):

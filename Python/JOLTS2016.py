@@ -1,7 +1,7 @@
 import csv
 
 
-def retrieve_info(year):
+def pull_jolts_data(year):
     new_info = []
     with open('../Original_Datasets/JOTLS 2000-2017 Open Jobs - Sheet1.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
@@ -14,8 +14,8 @@ def retrieve_info(year):
     return new_info
 
 
-def clean_data(year):  # gets data by year
-    info = retrieve_info(year)
+def clean_jolts_data(year):  # gets data by year
+    info = pull_jolts_data(year)
     counter = 0
     digit = 0
     new = []
@@ -30,8 +30,8 @@ def clean_data(year):  # gets data by year
     return new
 
 
-def get_area(area, year):  # use built-in coding to find seasonally adjusted stats by area
-    get_set = clean_data(year)
+def reduce_jolts_data_by_area(area, year):  # use built-in coding to find seasonally adjusted stats by area
+    get_set = clean_jolts_data(year)
     search = "JTS000000"
     if area == 'South':
         search += 'SOJOL'
