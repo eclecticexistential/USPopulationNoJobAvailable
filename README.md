@@ -21,6 +21,8 @@ Estimates for whether or not stay-at-home parents are considered employed or une
 
 According to Scott Galloway, Professor of Marketing at the NYU Stern School of Business, the job scarcity estimates revealed by this analysis may be attributed to Amazon reducing jobs in retail and other industries. Source: [The Four](https://www.youtube.com/watch?v=GWBjUsmO-Lw)
 
+Nevertheless, to-date I do not have an official answer as to how fast automation is reducing available jobs.
+
 *Manual steps to recreate results:*
 1. Download the [Census](https://www.census.gov/data/datasets/2017/demo/popest/state-detail.html) dataset [here](https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/state/asrh/sc-est2016-agesex-civ.csv) or look for the data named "Annual Estimates of the Civilian Population by Single Year of Age and Sex for the United States and States: April 1, 2010 to July 1, 2016".
 2. Filter Census data by years, state, and ages 16-67.
