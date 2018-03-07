@@ -3,7 +3,7 @@
 ##### I purposed this ^ question for my Python Data Visualization project. 
 ## What the data revealed is worth sharing.
 
-According to the Bureau Labor of Statistics and Job Opening and Labor Turnover estimates in 2016, of the 7,729,000 unemployed, 2,176,500<sup id="a1">[1](#f1)</sup> **did not** have an open position available to them. 
+According to the Bureau Labor of Statistics and Job Opening and Labor Turnover estimates in 2016, of the 7,738,000 unemployed, 2,185,500<sup id="a1">[1](#f1)</sup> **did not** have an open position available to them. 
 This estimate is less than 2015, when 2,981,834 unemployed people apparently **did not** have a job available to them.
 
 ![BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/BLS.PNG)
@@ -12,7 +12,7 @@ BLS stats<sup id="a2">[2](#f2)</sup> note an age restriction of 16 and older.
 To identify if retirees are included in the BLS stats, the Census population estimates by age and state was analyzed.
 
 Removing the BLS Employed and Institutionalized<sup id="a3">[3](#f3)</sup> population from the Census estimates reveals a much larger portion of the population without a job available to them. 
-According to Census, BLS, and JOLTS data estimates, 27,638,691 people **did not** have an open position available to them in 2016. 
+According to Census, BLS, and JOLTS data estimates, of the approximately 32,913,191 unemployed population about 27,360,691 people **did not** have an open position available to them in 2016. 
 
 ![Census BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/Census.PNG)
 
@@ -20,6 +20,8 @@ Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats o
 Estimates for whether or not stay-at-home parents are considered employed or unemployed vary by [state](https://www.huffingtonpost.com/2015/05/13/stay-at-home-fathers_n_7261020.html).
 
 According to Scott Galloway, Professor of Marketing at the NYU Stern School of Business, the job scarcity estimates revealed by this analysis may be attributed to Amazon reducing jobs in retail and other industries. Source: [The Four](https://www.youtube.com/watch?v=GWBjUsmO-Lw)
+
+Nevertheless, to-date I do not have an official answer as to how fast automation is reducing available jobs.
 
 *Manual steps to recreate results:*
 1. Download the [Census](https://www.census.gov/data/datasets/2017/demo/popest/state-detail.html) dataset [here](https://www2.census.gov/programs-surveys/popest/datasets/2010-2016/state/asrh/sc-est2016-agesex-civ.csv) or look for the data named "Annual Estimates of the Civilian Population by Single Year of Age and Sex for the United States and States: April 1, 2010 to July 1, 2016".
@@ -35,6 +37,10 @@ According to Scott Galloway, Professor of Marketing at the NYU Stern School of B
 11. Take regional Census data and reduce by BLS institutionalized and employed population
 12. Remaining number is estimate of unemployed population, subtract JOLTS available jobs for estimates used in graphs.
 
+*Project Dependencies*
+* Python or an Interpreter
+* Jupyter Notebooks
+* Bokeh
 
 ## Data Guide
 
