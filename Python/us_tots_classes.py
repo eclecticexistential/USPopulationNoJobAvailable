@@ -11,6 +11,7 @@ class USBLSStats:
 
 us_bls = list(USBLSStats())
 
+
 class USCensusStats:
     def __init__(self, census_stats=get_us_stats(census=True)):
         self.census = census_stats
