@@ -35,6 +35,10 @@ According to Scott Galloway, Professor of Marketing at the NYU Stern School of B
 11. Take regional Census data and reduce by BLS institutionalized and employed population
 12. Remaining number is estimate of unemployed population, subtract JOLTS available jobs for estimates used in graphs.
 
+*Project Dependencies*
+* Python or an Interpreter
+* Jupyter Notebooks
+* Bokeh
 
 ## Data Guide
 
