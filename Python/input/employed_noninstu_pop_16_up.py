@@ -3,7 +3,7 @@ import re
 
 
 def get_bls_data_2015():
-    with open('../Original_Datasets/'
+    with open('../../Original_Datasets/'
               'https___www.bls.gov_news.release_archives_srgune_02282017.htm - Sheet1.csv', 'r') as csvfile2015:
         reader2015 = csv.reader(csvfile2015)
         counter = 8
@@ -15,7 +15,7 @@ def get_bls_data_2015():
 
 
 def get_bls_data_2016():
-    with open('../Original_Datasets/'
+    with open('../../Original_Datasets/'
               'https___www.bls.gov_news.release_srgune.t01.htm - Sheet1.csv', 'r') as csvfile2016:
         reader2016 = csv.reader(csvfile2016)
         counter = 5

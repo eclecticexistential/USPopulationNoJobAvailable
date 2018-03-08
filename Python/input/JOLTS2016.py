@@ -3,7 +3,7 @@ import csv
 
 def pull_jolts_data(year):
     new_info = []
-    with open('../Original_Datasets/JOTLS 2000-2017 Open Jobs - Sheet1.csv', 'r') as csvfile:
+    with open('../../Original_Datasets/JOTLS 2000-2017 Open Jobs - Sheet1.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:

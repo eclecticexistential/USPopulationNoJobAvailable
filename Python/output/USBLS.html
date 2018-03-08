@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BLS Unemployed and JOLTS Available Jobs in 50 States 2015 - 2016</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.13.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="c99c7ebe-4a27-456f-b9aa-739cce522f31"></div>
+        </div>
+        
+        <script type="application/json" id="f448f0d5-724d-43e3-a4b1-7d1dc8fe8c81">
+          {"0c379f72-f794-4804-bd7e-e9e29ff732aa":{"roots":{"references":[{"attributes":{"callback":null,"factors":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"]},"id":"00d73bdb-3734-4dcc-ba22-72d847551ffb","type":"FactorRange"},{"attributes":{"data_source":{"id":"471625d4-e168-459a-bc1f-71f32b1425e9","type":"ColumnDataSource"},"glyph":{"id":"356fabc9-7b77-4bd5-af94-71177184f21d","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1807f92f-bec5-49f3-9d7c-75cf5c0071e4","type":"VBar"},"selection_glyph":null,"view":{"id":"66833481-91fa-40aa-bd05-fb00ba8e281c","type":"CDSView"}},"id":"f602231c-832d-4a9d-8d07-896b8c7538e1","type":"GlyphRenderer"},{"attributes":{},"id":"0f1b54c0-d2ba-479b-b285-fd8c775e911c","type":"LinearScale"},{"attributes":{},"id":"bc40dbe5-94d9-4a6f-ab0d-38e2a8138968","type":"ResetTool"},{"attributes":{},"id":"55f49265-29d4-44ad-a39b-1c4b67e832e4","type":"CategoricalScale"},{"attributes":{"callback":null,"tooltips":[["Category","@category"],["Stats","@data"]]},"id":"c7e21471-679f-4450-8e7d-db12698973c1","type":"HoverTool"},{"attributes":{},"id":"7a260461-b9b6-49c0-85d2-49deb726fca3","type":"SaveTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"bc40dbe5-94d9-4a6f-ab0d-38e2a8138968","type":"ResetTool"},{"id":"c7e21471-679f-4450-8e7d-db12698973c1","type":"HoverTool"},{"id":"7a260461-b9b6-49c0-85d2-49deb726fca3","type":"SaveTool"}]},"id":"62a835cd-71a4-4a09-81b5-eec4e22ed2b6","type":"Toolbar"},{"attributes":{"below":[{"id":"6494df18-02be-4836-978b-9812162f6c6d","type":"CategoricalAxis"}],"left":[{"id":"17e560d1-7858-4ea0-b478-9b3f62437f25","type":"LinearAxis"}],"plot_height":650,"plot_width":1100,"renderers":[{"id":"6494df18-02be-4836-978b-9812162f6c6d","type":"CategoricalAxis"},{"id":"26615bfe-b746-4228-b8e0-e8d089009cc3","type":"Grid"},{"id":"17e560d1-7858-4ea0-b478-9b3f62437f25","type":"LinearAxis"},{"id":"281569dd-016d-4a24-8346-68f4fcf1d2ad","type":"Grid"},{"id":"f602231c-832d-4a9d-8d07-896b8c7538e1","type":"GlyphRenderer"}],"title":{"id":"7f62ed13-1fe1-4150-934f-c8a558666593","type":"Title"},"toolbar":{"id":"62a835cd-71a4-4a09-81b5-eec4e22ed2b6","type":"Toolbar"},"x_range":{"id":"00d73bdb-3734-4dcc-ba22-72d847551ffb","type":"FactorRange"},"x_scale":{"id":"55f49265-29d4-44ad-a39b-1c4b67e832e4","type":"CategoricalScale"},"y_range":{"id":"5dfb5ee3-13a9-4893-82d8-dc213f510333","type":"Range1d"},"y_scale":{"id":"0f1b54c0-d2ba-479b-b285-fd8c775e911c","type":"LinearScale"}},"id":"89d0d410-a95c-43c1-b02f-6e442da962ae","subtype":"Figure","type":"Plot"},{"attributes":{"format":"100,000"},"id":"4a1d51b1-24c0-4671-a5f5-6d61af70014a","type":"NumeralTickFormatter"},{"attributes":{"plot":null,"text":"Bureau Labor Statistics and JOLTS in 50 States 2015 - 2016"},"id":"7f62ed13-1fe1-4150-934f-c8a558666593","type":"Title"},{"attributes":{"fill_color":{"field":"color"},"line_color":{"value":"white"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"356fabc9-7b77-4bd5-af94-71177184f21d","type":"VBar"},{"attributes":{"callback":null,"column_names":["category","data","color"],"data":{"category":["Unemployed 2015","Jobs Available 2015","Unemployed 2016","Jobs Available 2016"],"color":["#400000","#FF0000","#004000","#00FF00"],"data":[8293000,5311166,7738000,5552500]}},"id":"471625d4-e168-459a-bc1f-71f32b1425e9","type":"ColumnDataSource"},{"attributes":{"dimension":1,"plot":{"id":"89d0d410-a95c-43c1-b02f-6e442da962ae","subtype":"Figure","type":"Plot"},"ticker":{"id":"f393d0f5-eebc-443c-b1c1-1be4ea6e12d9","type":"BasicTicker"}},"id":"281569dd-016d-4a24-8346-68f4fcf1d2ad","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"data"},"width":{"value":0.7},"x":{"field":"category"}},"id":"1807f92f-bec5-49f3-9d7c-75cf5c0071e4","type":"VBar"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"89d0d410-a95c-43c1-b02f-6e442da962ae","subtype":"Figure","type":"Plot"},"ticker":{"id":"bb85147e-1e40-4e17-a883-971c63538b57","type":"CategoricalTicker"}},"id":"26615bfe-b746-4228-b8e0-e8d089009cc3","type":"Grid"},{"attributes":{"formatter":{"id":"2f912ec6-6048-4864-8c5e-e313a3c5df8d","type":"CategoricalTickFormatter"},"plot":{"id":"89d0d410-a95c-43c1-b02f-6e442da962ae","subtype":"Figure","type":"Plot"},"ticker":{"id":"bb85147e-1e40-4e17-a883-971c63538b57","type":"CategoricalTicker"}},"id":"6494df18-02be-4836-978b-9812162f6c6d","type":"CategoricalAxis"},{"attributes":{},"id":"bb85147e-1e40-4e17-a883-971c63538b57","type":"CategoricalTicker"},{"attributes":{},"id":"2f912ec6-6048-4864-8c5e-e313a3c5df8d","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"end":8500000},"id":"5dfb5ee3-13a9-4893-82d8-dc213f510333","type":"Range1d"},{"attributes":{"source":{"id":"471625d4-e168-459a-bc1f-71f32b1425e9","type":"ColumnDataSource"}},"id":"66833481-91fa-40aa-bd05-fb00ba8e281c","type":"CDSView"},{"attributes":{"formatter":{"id":"4a1d51b1-24c0-4671-a5f5-6d61af70014a","type":"NumeralTickFormatter"},"plot":{"id":"89d0d410-a95c-43c1-b02f-6e442da962ae","subtype":"Figure","type":"Plot"},"ticker":{"id":"f393d0f5-eebc-443c-b1c1-1be4ea6e12d9","type":"BasicTicker"}},"id":"17e560d1-7858-4ea0-b478-9b3f62437f25","type":"LinearAxis"},{"attributes":{},"id":"f393d0f5-eebc-443c-b1c1-1be4ea6e12d9","type":"BasicTicker"}],"root_ids":["89d0d410-a95c-43c1-b02f-6e442da962ae"]},"title":"Bokeh Application","version":"0.12.13"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('f448f0d5-724d-43e3-a4b1-7d1dc8fe8c81').textContent;
+                  var render_items = [{"docid":"0c379f72-f794-4804-bd7e-e9e29ff732aa","elementid":"c99c7ebe-4a27-456f-b9aa-739cce522f31","modelid":"89d0d410-a95c-43c1-b02f-6e442da962ae"}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>

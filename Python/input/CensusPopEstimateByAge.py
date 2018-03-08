@@ -3,8 +3,8 @@ from JOLTS2016 import reduce_jolts_data_by_area
 from areas_by_region import sep_state_region
 
 
-def get_census_pop_by_area_age(area, year, age=16, retire=True):  # gets population between 16-67
-    with open('../Original_Datasets/sc-est2016-agesex-civ.csv', 'r') as csvfile:
+def get_census_pop_by_area_age(area, year, age=16, retire=True):  # gets state population between 16-67
+    with open('../../Original_Datasets/sc-est2016-agesex-civ.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         under_16 = 0
         for row in reader:

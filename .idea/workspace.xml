@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67db6454-a118-4133-af6b-24ce46953222" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMG/BLS.PNG" afterPath="$PROJECT_DIR$/IMG/BLS.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMG/Census.PNG" afterPath="$PROJECT_DIR$/IMG/Census.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/USBLSStats.db" afterPath="$PROJECT_DIR$/Python/USBLSStats.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/USCensusStats.db" afterPath="$PROJECT_DIR$/Python/USCensusStats.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/complete.db" afterPath="$PROJECT_DIR$/Python/complete.db" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/BLS No Job Awaits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/CLFNoJobAvailable.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/Census No Job Awaits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/USBLS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/USBLSStats.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/USCLFUnemployedJOLTS.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/USCensus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/USCensusStats.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/UStots.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/areas_by_region.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/complete.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/data_classes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/output/PopEmpJobs2016.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/us_tots_classes.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python/CensusPopEstimateByAge.py" afterPath="$PROJECT_DIR$/Python/input/CensusPopEstimateByAge.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python/JOLTS2016.py" afterPath="$PROJECT_DIR$/Python/input/JOLTS2016.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python/employed_noninstu_pop_16_up.py" afterPath="$PROJECT_DIR$/Python/input/employed_noninstu_pop_16_up.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/BLS No Job Awaits.html" afterPath="$PROJECT_DIR$/Python/BLS No Job Awaits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/CLFNoJobAvailable.ipynb" afterPath="$PROJECT_DIR$/Python/CLFNoJobAvailable.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/Census No Job Awaits.html" afterPath="$PROJECT_DIR$/Python/Census No Job Awaits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/USBLS.html" afterPath="$PROJECT_DIR$/Python/USBLS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/USCensus.html" afterPath="$PROJECT_DIR$/Python/USCensus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python/us_tots_classes.py" afterPath="$PROJECT_DIR$/Python/us_tots_classes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/CLFNoJobAvailable-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/CLFNoJobAvailable-checkpoint.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,43 +35,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="us_tots_classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/us_tots_classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UStots.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/UStots.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data_classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/data_classes.py">
+        <entry file="file://$PROJECT_DIR$/Python/output/data_classes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <caret line="0" column="47" lean-forward="true" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopEmpJobs2016.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/PopEmpJobs2016.py">
+      <file leaf-file-name="us_tots_classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/output/us_tots_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Start_PopEmpJobs2016.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/output/Start_PopEmpJobs2016.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -72,12 +67,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employed_noninstu_pop_16_up.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/employed_noninstu_pop_16_up.py">
+      <file leaf-file-name="UStots.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/output/UStots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,8 +158,17 @@
         <option value="$PROJECT_DIR$/Python/employed_noninstu_pop_16_up.py" />
         <option value="$PROJECT_DIR$/Python/UStots.py" />
         <option value="$PROJECT_DIR$/Python/data_classes.py" />
-        <option value="$PROJECT_DIR$/Python/PopEmpJobs2016.py" />
         <option value="$PROJECT_DIR$/Python/us_tots_classes.py" />
+        <option value="$PROJECT_DIR$/Python/PopEmpJobs2016.py" />
+        <option value="$PROJECT_DIR$/Python/input/areas_by_region.py" />
+        <option value="$PROJECT_DIR$/Python/input/CensusPopEstimateByAge.py" />
+        <option value="$PROJECT_DIR$/Python/input/employed_noninstu_pop_16_up.py" />
+        <option value="$PROJECT_DIR$/Python/input/JOLTS2016.py" />
+        <option value="$PROJECT_DIR$/Python/output/PopEmpJobs2016.py" />
+        <option value="$PROJECT_DIR$/Python/output/data_classes.py" />
+        <option value="$PROJECT_DIR$/Python/output/UStots.py" />
+        <option value="$PROJECT_DIR$/Python/output/Start_PopEmpJobs2016.py" />
+        <option value="$PROJECT_DIR$/Python/output/us_tots_classes.py" />
       </list>
     </option>
   </component>
@@ -201,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,10 +233,46 @@
               <option name="myItemId" value="Python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonCodeLouisvilleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonCodeLouisvilleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonCodeLouisvilleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonCodeLouisvilleProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +280,30 @@
     <property name="SearchEverywhereHistoryKey" value="round&#9;null&#9;null&#10;excel&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.us_tots_classes">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Earthling\Dropbox\PythonCodeLouisvilleProject\Python\input" />
+      <recent name="C:\Users\Earthling\Dropbox\PythonCodeLouisvilleProject\Python\output" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.us_tots_classes (1)">
+    <configuration default="false" name="CensusPopEstimateByAge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/CensusPopEstimateByAge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="employed_noninstu_pop_16_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,29 +311,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/employed_noninstu_pop_16_up.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="data_classes (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/data_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/employed_noninstu_pop_16_up.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -280,29 +328,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/JOLTS2016.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/JOLTS2016.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="us_tots_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="us_tots_classes (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/output" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/us_tots_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/output/us_tots_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -314,12 +362,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/output" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/PopEmpJobs2016.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/output/PopEmpJobs2016.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -462,19 +510,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
-      <item index="1" class="java.lang.String" itemvalue="Python.data_classes (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
+      <item index="1" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
       <item index="2" class="java.lang.String" itemvalue="Python.JOLTS2016" />
-      <item index="3" class="java.lang.String" itemvalue="Python.us_tots_classes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.us_tots_classes (1)" />
       <item index="4" class="java.lang.String" itemvalue="Python.PopEmpJobs2016" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.us_tots_classes" />
+        <item index="0" class="java.lang.String" itemvalue="Python.us_tots_classes (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.PopEmpJobs2016" />
-        <item index="2" class="java.lang.String" itemvalue="Python.data_classes (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.JOLTS2016" />
         <item index="3" class="java.lang.String" itemvalue="Python.employed_noninstu_pop_16_up" />
-        <item index="4" class="java.lang.String" itemvalue="Python.JOLTS2016" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
       </list>
     </recent_temporary>
   </component>
@@ -495,26 +543,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12518302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.366322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1816839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,18 +589,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learning sqlite.py" />
-    <entry file="file://$PROJECT_DIR$/sqlitewtreehouse.py" />
-    <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
-    <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
-    <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
-    <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
-    <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
     <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
     <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
     <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
@@ -613,68 +654,98 @@
     <entry file="file://$PROJECT_DIR$/PopEmpJobs2016.py" />
     <entry file="file://$PROJECT_DIR$/UStots.py" />
     <entry file="file://$PROJECT_DIR$/us_tots_classes.py" />
-    <entry file="file://$PROJECT_DIR$/Python/areas_by_region.py">
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/CLFNoJobAvailable-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/areas_by_region.py" />
+    <entry file="file://$PROJECT_DIR$/Python/data_classes.py" />
+    <entry file="file://$PROJECT_DIR$/Python/UStots.py" />
+    <entry file="file://$PROJECT_DIR$/Python/us_tots_classes.py" />
+    <entry file="file://$PROJECT_DIR$/Python/input/CensusPopEstimateByAge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/input/areas_by_region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/input/employed_noninstu_pop_16_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/input/JOLTS2016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/output/PopEmpJobs2016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/output/0_PopEmpJobs2016.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/JOLTS2016.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/CensusPopEstimateByAge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/us_tots_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/UStots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/data_classes.py">
+    <entry file="file://$PROJECT_DIR$/Python/output/data_classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <caret line="0" column="47" lean-forward="true" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/PopEmpJobs2016.py">
+    <entry file="file://$PROJECT_DIR$/Python/output/Start_PopEmpJobs2016.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/employed_noninstu_pop_16_up.py">
+    <entry file="file://$PROJECT_DIR$/Python/output/us_tots_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/output/UStots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
