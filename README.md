@@ -16,6 +16,8 @@ According to Census, BLS, and JOLTS data estimates, of the approximately 32,913,
 
 ![Census BLS JOLTS Bar Chart](https://raw.githubusercontent.com/eclecticexistential/USPopulationNoJobAvailable/master/IMG/Census.PNG)
 
+Check out the interactive regional BLS and Census Maps [here](https://eclecticexistential.github.io/python/datavisualization.html).
+
 Jupyter notebook pages reveal a regional breakdown of the BLS and Census stats on a map for both years.
 Estimates for whether or not stay-at-home parents are considered employed or unemployed vary by [state](https://www.huffingtonpost.com/2015/05/13/stay-at-home-fathers_n_7261020.html).
 
