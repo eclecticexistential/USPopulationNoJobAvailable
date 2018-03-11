@@ -49,7 +49,7 @@ def put_census_pop_into_region(region, year, age, retire):
 
 def add_census_pop_by_region(area, year, age=16, retire=True):
     run_tot_reg = 0
-    areas_age = put_census_pop_into_region(area, year, age, retire)  # finds out how many people between 16-67 in a region
+    areas_age = put_census_pop_into_region(area, year, age, retire)  # find people in a region between 16-67
     a_age_tots = []
     for pop in areas_age:
         for stat in pop:
@@ -76,3 +76,15 @@ def jolts_jobs_by_region(year):  # gets stats from JOLTS file
     for area in areas:
             by_region.append([area, reduce_jolts_data_by_area(area, year)])
     return by_region
+
+
+def full_jolts_set_by_region():  # stand alone JOLTS data
+    years_array = []
+    for x in range(2001, 2017):
+        data_set = jolts_jobs_by_region(str(x))
+        tots = data_set[0][1] + data_set[1][1] + data_set[2][1] + data_set[3][1]
+        group = [x]
+        group.extend(data_set)
+        group.append(['United States', tots])
+        years_array.append(group)
+    return years_array
