@@ -76,15 +76,3 @@ def jolts_jobs_by_region(year):  # gets stats from JOLTS file
     for area in areas:
             by_region.append([area, reduce_jolts_data_by_area(area, year)])
     return by_region
-
-
-def full_jolts_set_by_region():  # stand alone JOLTS data
-    years_array = []
-    for x in range(2001, 2017):
-        data_set = jolts_jobs_by_region(str(x))
-        tots = data_set[0][1] + data_set[1][1] + data_set[2][1] + data_set[3][1]
-        group = [x]
-        group.extend(data_set)
-        group.append(['United States', tots])
-        years_array.append(group)
-    return years_array
