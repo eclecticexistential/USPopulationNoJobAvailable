@@ -1,4 +1,7 @@
 import sqlite3
+import sys
+
+sys.path.insert(0, '../input')
 from CensusPopEstimateByAge import jolts_jobs_by_region
 
 

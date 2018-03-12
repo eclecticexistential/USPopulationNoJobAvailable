@@ -10,5 +10,3 @@ class JoltsData:
             yield data
 
 jolts_data = list(JoltsData())
-
-print(jolts_data)
