@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67db6454-a118-4133-af6b-24ce46953222" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/input/SAJolts.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/input/SAJoltsClass.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/input/stand_alone_jolts.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +17,56 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SAJoltsClass.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/output/SAJoltsClass.py">
+      <file leaf-file-name="mtg_start_file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtg_evo_wilds_stats.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="206" column="35" lean-forward="false" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play_the_game_output.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="226" column="26" lean-forward="false" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stand_alone_jolts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/output/stand_alone_jolts.py">
+      <file leaf-file-name="mtgSpells.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgSpells.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="195" column="26" lean-forward="false" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtgClasses.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgClasses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,36 +82,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>100</find>
-      <find>106</find>
-      <find>104</find>
-      <find>maryland</find>
-      <find>get</find>
-      <find>connecticut</find>
-      <find>united</find>
-      <find>conn</find>
-      <find>puerto</find>
-      <find>4828</find>
-      <find>puert</find>
-      <find>puer</find>
-      <find>53</find>
-      <find>jts1</find>
-      <find>united states</find>
-      <find>999</find>
-      <find>85</find>
-      <find>JTS000000NEJOR           2015</find>
-      <find>JTS000000NE</find>
-      <find>JTU</find>
-      <find>2015</find>
-      <find>mid</find>
-      <find>chunck</find>
-      <find>NE</find>
-      <find>midwest</find>
-      <find>unalt</find>
-      <find>listed</find>
-      <find>bureau</find>
-      <find>burea</find>
-      <find>/script</find>
+      <find>hand_check</find>
+      <find>if len(was</find>
+      <find>88</find>
+      <find>mana</find>
+      <find>len(</find>
+      <find>66</find>
+      <find>check_fie</find>
+      <find>print</find>
+      <find>this</find>
+      <find>p1</find>
+      <find>play_creature</find>
+      <find>about</find>
+      <find>math</find>
+      <find>check_field</find>
+      <find>in the</find>
+      <find>check_creature</find>
+      <find>check_creat</find>
+      <find>direc</find>
+      <find>take_turn</find>
+      <find>take</find>
+      <find>42</find>
+      <find>check</find>
+      <find>play</find>
+      <find>main</find>
+      <find>main_phase</find>
+      <find>combat</find>
+      <find>tutor</find>
+      <find>un</find>
+      <find>untapped_mana</find>
+      <find>stats</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,9 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Original_Datasets/estPop.csv" />
-        <option value="$PROJECT_DIR$/db.py" />
-        <option value="$PROJECT_DIR$/learning sqlite.py" />
         <option value="$PROJECT_DIR$/treehousediary.py" />
         <option value="$PROJECT_DIR$/sqlitewtreehouse.py" />
         <option value="$PROJECT_DIR$/Population to Ages/Salary.py" />
@@ -137,6 +164,13 @@
         <option value="$PROJECT_DIR$/Python/input/SAJoltsClass.py" />
         <option value="$PROJECT_DIR$/Python/output/SAJoltsClass.py" />
         <option value="$PROJECT_DIR$/Python/output/stand_alone_jolts.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg_evo_wilds.ipynb" />
+        <option value="$USER_HOME$/PycharmProjects/practice100days/mtg_evo_wilds_stats.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/mtgClasses.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/mtgSpells.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py" />
       </list>
     </option>
   </component>
@@ -161,7 +195,7 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -174,60 +208,11 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonCodeLouisvilleProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python/output/us_tots_classes.py" />
-    <property name="SearchEverywhereHistoryKey" value="round&#9;null&#9;null&#10;excel&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py" />
+    <property name="SearchEverywhereHistoryKey" value="random&#9;null&#9;null&#10;round&#9;null&#9;null&#10;excel&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -236,75 +221,7 @@
       <recent name="C:\Users\Earthling\Dropbox\PythonCodeLouisvilleProject\Python\output" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SAJoltsClass (1)">
-    <configuration default="false" name="CensusPopEstimateByAge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/CensusPopEstimateByAge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stand_alone_jolts" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/stand_alone_jolts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SAJoltsClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/input" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/input/SAJoltsClass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stand_alone_jolts (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/output" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonCodeLouisvilleProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/output/stand_alone_jolts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.play_the_game_output">
     <configuration default="false" name="SAJoltsClass (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,6 +235,74 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonCodeLouisvilleProject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/output/SAJoltsClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mtg_evo_wilds_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/practice100days" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/practice100days/mtg_evo_wilds_stats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mtg_evo_wilds_stats (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Coding/mtg" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mtgSpells" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Coding/mtg" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Coding/mtg/mtgSpells.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="play_the_game_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Coding/mtg" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonCodeLouisvilleProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -460,19 +445,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
-      <item index="1" class="java.lang.String" itemvalue="Python.stand_alone_jolts" />
-      <item index="2" class="java.lang.String" itemvalue="Python.SAJoltsClass" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stand_alone_jolts (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SAJoltsClass (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.SAJoltsClass (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mtg_evo_wilds_stats" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mtg_evo_wilds_stats (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mtgSpells" />
+      <item index="4" class="java.lang.String" itemvalue="Python.play_the_game_output" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SAJoltsClass (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stand_alone_jolts (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SAJoltsClass" />
-        <item index="3" class="java.lang.String" itemvalue="Python.stand_alone_jolts" />
-        <item index="4" class="java.lang.String" itemvalue="Python.CensusPopEstimateByAge" />
+        <item index="0" class="java.lang.String" itemvalue="Python.play_the_game_output" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mtgSpells" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mtg_evo_wilds_stats (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mtg_evo_wilds_stats" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SAJoltsClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -496,12 +481,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.366322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25849336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -550,26 +535,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db.py" />
-    <entry file="file://$PROJECT_DIR$/learning sqlite.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Population to Ages/Salary.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="297" column="4" lean-forward="false" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2016Pop.py" />
-    <entry file="file://$PROJECT_DIR$/PopAgesSalary.py" />
-    <entry file="file://$PROJECT_DIR$/2016Popu.py" />
     <entry file="file://$PROJECT_DIR$/sqlitewtreehouse.py" />
     <entry file="file://$PROJECT_DIR$/treehousediary.py" />
     <entry file="file://$PROJECT_DIR$/ReadUSPop.py" />
@@ -580,13 +545,6 @@
     <entry file="file://$PROJECT_DIR$/jobsavemp.py" />
     <entry file="file://$PROJECT_DIR$/combo.py" />
     <entry file="file://$PROJECT_DIR$/Original_Datasets/Job openings and employment, total nonfarm, seasonally adjusted, Jan–December 2016 - Sheet1.csv" />
-    <entry file="file://$USER_HOME$/PycharmProjects/practice100days/mtg_evo_wilds_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/areas_by_region.py" />
     <entry file="file://$PROJECT_DIR$/JOLTS2016.py" />
     <entry file="file://$PROJECT_DIR$/CensusPopEstimateByAge.py" />
@@ -693,43 +651,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/input/stand_alone_jolts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/input/SAJoltsClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/input/stand_alone_jolts.py" />
+    <entry file="file://$PROJECT_DIR$/Python/input/SAJoltsClass.py" />
     <entry file="file://$PROJECT_DIR$/Python/output/Start_PopEmpJobs2016.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/output/stand_alone_jolts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="918">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/output/SAJoltsClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/PythonInterview/pythoninterview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg_evo_wilds.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/practice100days/mtg_evo_wilds_stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="479" column="41" lean-forward="true" selection-start-line="479" selection-start-column="41" selection-end-line="479" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgClasses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="206" column="35" lean-forward="false" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgSpells.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="195" column="26" lean-forward="false" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="226" column="26" lean-forward="false" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
           <folding />
         </state>
       </provider>
