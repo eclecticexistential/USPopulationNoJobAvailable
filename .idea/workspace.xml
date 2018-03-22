@@ -20,8 +20,8 @@
       <file leaf-file-name="mtg_start_file.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -32,7 +32,7 @@
       <file leaf-file-name="mtg_evo_wilds_stats.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="3485">
               <caret line="206" column="35" lean-forward="false" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play_the_game_output.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play_the_game_output.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
@@ -54,18 +54,18 @@
       <file leaf-file-name="mtgSpells.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgSpells.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="1601">
               <caret line="195" column="26" lean-forward="false" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mtgClasses.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mtgClasses.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgClasses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="17" />
+            <state relative-caret-position="80">
+              <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -82,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hand_check</find>
       <find>if len(was</find>
       <find>88</find>
       <find>mana</find>
@@ -111,6 +110,7 @@
       <find>tutor</find>
       <find>un</find>
       <find>untapped_mana</find>
+      <find>stats for 2</find>
       <find>stats</find>
     </findStrings>
   </component>
@@ -166,11 +166,11 @@
         <option value="$PROJECT_DIR$/Python/output/stand_alone_jolts.py" />
         <option value="$PROJECT_DIR$/../Coding/mtg_evo_wilds.ipynb" />
         <option value="$USER_HOME$/PycharmProjects/practice100days/mtg_evo_wilds_stats.py" />
-        <option value="$PROJECT_DIR$/../Coding/mtg/mtgClasses.py" />
         <option value="$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py" />
         <option value="$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py" />
         <option value="$PROJECT_DIR$/../Coding/mtg/mtgSpells.py" />
         <option value="$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py" />
+        <option value="$PROJECT_DIR$/../Coding/mtg/mtgClasses.py" />
       </list>
     </option>
   </component>
@@ -195,7 +195,7 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -208,10 +208,14 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coding/mtg" />
     <property name="SearchEverywhereHistoryKey" value="random&#9;null&#9;null&#10;round&#9;null&#9;null&#10;excel&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -481,12 +485,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25849336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7592319" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -702,18 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgClasses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_start_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -722,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtg_evo_wilds_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="3485">
           <caret line="206" column="35" lean-forward="false" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -730,18 +726,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="226" column="26" lean-forward="false" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgSpells.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="1601">
           <caret line="195" column="26" lean-forward="false" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Coding/mtg/play_the_game_output.py">
+    <entry file="file://$PROJECT_DIR$/../Coding/mtg/mtgClasses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="226" column="26" lean-forward="false" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
           <folding />
         </state>
       </provider>
